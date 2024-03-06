@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4ECB194F2B7FF02000A784C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB194E2B7FF02000A784C2 /* main.swift */; };
 		4ECB19692B86593700A784C2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19682B86593700A784C2 /* String+Extensions.swift */; };
+		4ECB196B2B8DD8AC00A784C2 /* FibonacciHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB196A2B8DD8AC00A784C2 /* FibonacciHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4ECB194B2B7FF02000A784C2 /* macks-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "macks-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECB194E2B7FF02000A784C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4ECB19682B86593700A784C2 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4ECB196A2B8DD8AC00A784C2 /* FibonacciHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciHeap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		4ECB19422B7FF02000A784C2 = {
 			isa = PBXGroup;
 			children = (
+				4ECB196A2B8DD8AC00A784C2 /* FibonacciHeap.swift */,
 				4ECB194E2B7FF02000A784C2 /* main.swift */,
 				4ECB19682B86593700A784C2 /* String+Extensions.swift */,
 				4ECB194C2B7FF02000A784C2 /* Products */,
@@ -115,6 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECB196B2B8DD8AC00A784C2 /* FibonacciHeap.swift in Sources */,
 				4ECB19692B86593700A784C2 /* String+Extensions.swift in Sources */,
 				4ECB194F2B7FF02000A784C2 /* main.swift in Sources */,
 			);

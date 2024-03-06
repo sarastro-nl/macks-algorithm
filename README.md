@@ -24,4 +24,4 @@ Then the algorithm will eventually output the following optimal assigment:
 
 ![](assets/optimal.png)
 
-To see the colors in the console window of XCode as shown above you'll need to install a special font called `ColoredConsole-Bold.ttf`. You can download this font and instruction on how to install it in XCode on this [github repo](https://github.com/jjrscott/ColoredConsole).
+To see the colors in the console window of Xcode as shown above you'll need to install a special font called `ColoredConsole-Bold.ttf`. You can download this font and find instruction on how to install it in Xcode on this [github repo](https://github.com/jjrscott/ColoredConsole).
