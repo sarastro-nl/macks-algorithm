@@ -6,6 +6,7 @@ More details about this algorithm can be found in [this pdf](https://web.eecs.um
 This is an example how to program works. Suppose the following 12x12 cost matrix is given:
 
 ![](assets/start.jpg)
+
 (in red are the obvious minimums per row)
 
 Then the algorithm will output all intermediate results like this:
