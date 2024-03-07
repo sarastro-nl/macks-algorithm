@@ -185,7 +185,7 @@ class Heap {
         }
         var node = node
         let start = node
-        repeat {
+        while true {
             if row == strings.count { strings.append("") }
             strings[row] += String(node.value)
             if strings[row].count + 1 > next_indent {
@@ -198,10 +198,12 @@ class Heap {
                 next_indent = 0
             }
             node = node.right
-            if start !== node {
+            if start === node {
+                break
+            } else {
                 strings[row] += String(repeating: "-", count: indent - strings[row].count)
             }
-        } while start !== node
+        }
     }
     
     private func print_heap() {
@@ -216,47 +218,4 @@ class Heap {
         }
         print("======================")
     }
-    
-    //int main(int argc, const char * argv[] {
-    //    node_t *n1 = insert(7)
-    //    node_t *n2 = insert(18)
-    //    node_t *n3 = insert(38)
-    //    node_t *n4 = insert(24)
-    //    node_t *n5 = insert(17)
-    //    node_t *n6 = insert(23)
-    //    node_t *n7 = insert(21)
-    //    node_t *n8 = insert(39)
-    //    node_t *n9 = insert(41)
-    //    node_t *n10 = insert(26)
-    //    node_t *n11 = insert(46)
-    //    node_t *n12 = insert(30)
-    //    node_t *n13 = insert(35)
-    //    node_t *n14 = insert(52)
-    //    add_child(n1, n4)
-    //    add_child(n1, n5)
-    //    add_child(n1, n6)
-    //    add_child(n4, n10)
-    //    add_child(n4, n11)
-    //    add_child(n5, n12)
-    //    add_child(n10, n13)
-    //    add_child(n2, n7)
-    //    add_child(n2, n8)
-    //    add_child(n7, n14)
-    //    add_child(n3, n9)
-    //    n10.mark = true
-    //    n2.mark = true
-    //    n8.mark = true
-    //    print_heap()
-    //    change_value(n11, 15)
-    //    print_heap()
-    //    change_value(n13, 5)
-    //    print_heap()
-    //    remove_node(n14)
-    //    print_heap()
-    //    while node_t *node = remove_minimum( {
-    //        free(node)
-    //    }
-    //    return 0
-    //}
-    //
 }

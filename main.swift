@@ -141,23 +141,5 @@ func brute_force() {
     print("sum: \(min)")
 }
 
-//let h = Heap()
-//h.insert(column: 3, value: 33)
-//h.insert(column: 2, value: 2)
-//h.insert(column: 3, value: 13)
-//h.insert(column: 2, value: 7)
-//h.insert(column: 3, value: 3)
-//h.insert(column: 2, value: 52)
-//h.insert(column: 3, value: 33)
-//h.insert(column: 2, value: 2)
-//h.insert(column: 3, value: 13)
-//h.insert(column: 2, value: 7)
-//h.insert(column: 3, value: 3)
-//h.insert(column: 2, value: 52)
-//h.print_heap()
-//while let node = h.remove_minimum() {
-//    print(node.value)
-//}
-
 macksalgoritm()
 brute_force()
